@@ -3,7 +3,7 @@ import { to } from "await-to-js";
 import { isEmpty, eq } from 'lodash-es'
 const urls = {
     dev: 'http://localhost:3000/api',
-    prod: 'https://nologo.code24.top/api'
+    prod: 'https://www.ququya.com/api'
 }
 const instance = ajax.create({
     // 默认配置 

@@ -50,7 +50,7 @@
 	},
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "嗨去水印",
+		"navigationBarTitleText": "趣去水印",
 		"navigationBarBackgroundColor": "#FFF",
 		"usingComponents": {
 			"t-button": "wxcomponents/tdesign/button/button",
