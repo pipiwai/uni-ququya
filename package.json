@@ -4,7 +4,8 @@
   "scripts": {
     "dev:mp-weixin": " uni -p dev:mp-weixin",
     "build:mp-weixin": "uni build -p mp-weixin",
-    "postinstall": "weapp-tw patch"
+    "postinstall": "weapp-tw patch",
+    "git-push": "git add . && git commit -m 'update' && git push"
   },
   "dependencies": {
     "@dcloudio/uni-app": "3.0.0-3070920230324001",
