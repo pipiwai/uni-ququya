@@ -65,7 +65,7 @@
             <view class="p-4 border-b border-gray-200">
                 <view class="text-lg font-bold">常见问题</view>
             </view>
-            <t-collapse default-value="1" expandMutex expandIcon>
+            <t-collapse :default-value="['1']" expandMutex expandIcon>
                 <t-collapse-panel header="Q: 为什么下载速度很慢？" value="1" class="border-b border-gray-200">
                     <view class="text-gray-600 text-sm py-2">
                         A: 由于小程序平台限制，下载速度可能较慢。建议复制链接到浏览器下载以获得更好的体验。
