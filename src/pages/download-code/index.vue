@@ -25,7 +25,7 @@
         </view>
 
         <view class=" m-4 ">
-            <ad-custom unit-id="adunit-71e06c83a6e274ef"></ad-custom>
+            <ad-custom unit-id="adunit-a3dbe2104a249052"></ad-custom>
         </view>
     </view>
 </template>
@@ -90,7 +90,7 @@ export default {
         )
 
         onLoad(() => {
-            initRewardedVideoAd('adunit-0f6a2ca6cd6af968');
+            initRewardedVideoAd('adunit-362d9e63ef386d63');
         })
         onBeforeMount(fetchActivationCode)
 

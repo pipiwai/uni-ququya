@@ -15,7 +15,7 @@
                 </view>
             </view>
             <view class="flex items-center justify-center space-x-2">
-                <image src="https://linglan008-blog.oss-cn-hangzhou.aliyuncs.com/%E5%8F%AF%E8%BE%BE%E9%B8%AD.png"
+                <image src="https://open.ququya.com/img/logo.ququya.png"
                     class="w-5 h-5 rounded-full" alt="Logo" />
                 <text class="text-sm text-gray-500 ml-2">趣趣鸭去水印工具 © 2026</text>
             </view>

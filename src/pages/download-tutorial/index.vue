@@ -25,7 +25,7 @@
                 <text class="ml-3 text-xl font-bold text-gray-800">第一步：分享转发</text>
             </view>
             <view class="mt-3">
-                <text class="text-gray-600">首先我们打开抖音网站或app，点击打开你需要下载去水印的视频或图片作品，点击视频中的</text>
+                <text class="text-gray-600">首先我们打开抖音网站或APP，点击打开你需要下载去水印的视频或图片作品，点击视频中的</text>
                 <text class="font-semibold">【分享转发按钮】</text>
                 <text class="text-gray-600">;</text>
             </view>
@@ -67,7 +67,7 @@
             </view>
 
             <view class="mt-3">
-                <text class="text-gray-600">首先打开我们的鸭鸭去水印工具，</text>
+                <text class="text-gray-600">首先打开我们的趣趣鸭去水印工具，</text>
                 <text class="font-semibold">【粘贴】</text>
                 <text class="text-gray-600">链接复制到我们小程序的解析框中;</text>
             </view>
@@ -103,7 +103,7 @@
 <script>
 import { shareConfig } from "../../utils/common.js";
 // import NologoFooter from '../../components/nologo-footer.vue';
-const link = 'https://zwf4g5rfwiy.feishu.cn/wiki/JGjpwZ1Feiw8Zxks4Hoc8vI9nle'
+const link = 'https://home.ququya.com/blog'
 export default {
     components: {
         // NologoFooter

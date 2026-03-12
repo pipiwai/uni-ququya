@@ -5,7 +5,7 @@
                 <view class="flex items-center">
                     <text class="text-base font-medium text-gray-700">今日剩余去水印次数</text>
                 </view>
-                <image src="https://linglan008-blog.oss-cn-hangzhou.aliyuncs.com/%E5%8F%AF%E8%BE%BE%E9%B8%AD.png"
+                <image src="https://open.ququya.com/img/logo.ququya.png"
                     class="w-6 h-6 rounded-full" />
             </view>
             <text class="text-3xl font-bold text-blue-600 mt-2">{{ callRecord.count }}</text>
@@ -70,12 +70,12 @@
                 </view>
 
                 <!-- 推荐项 1 -->
-                <view class="flex items-center mb-3 last:mb-0" @tap="jumpToMiniProgram('wxdc301136f090bdce')">
-                    <image src="https://linglan008-blog.oss-cn-hangzhou.aliyuncs.com/WechatIMG15507.jpeg"
+                <view class="flex items-center mb-3 last:mb-0" @tap="jumpToMiniProgram('wxcecc3f773a042d84')">
+                    <image src="https://open.ququya.com/img/logo.ququya.png"
                         style="width: 60rpx;height: 60rpx;border-radius: 8rpx;" mode="cover" />
                     <view class="ml-3 flex-1">
-                        <view class="text-sm text-gray-900">小易拼豆</view>
-                        <view class="text-xs text-gray-500 mt-1">拼豆图纸生成器</view>
+                        <view class="text-sm text-gray-900">趣趣鸭去水印</view>
+                        <view class="text-xs text-gray-500 mt-1">好用的水印去除工具</view>
                     </view>
                     <t-icon name="chevron-right" size="48rpx" color="#999" />
                 </view>
@@ -143,7 +143,7 @@ export default {
 
         onShow(initLoadCall)
         onLoad(() => {
-            initRewardedVideoAd('adunit-0f6a2ca6cd6af968');
+            initRewardedVideoAd('adunit-362d9e63ef386d63');
         })
         return {
             showDialog,
