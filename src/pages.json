@@ -68,5 +68,6 @@
 			"t-divider": "wxcomponents/tdesign/divider/divider",
 			"t-cell": "wxcomponents/tdesign/cell/cell"
 		}
-	}
+	},
+	"lazyCodeLoading": "requiredComponents"
 }
