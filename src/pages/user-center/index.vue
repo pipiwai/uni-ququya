@@ -75,7 +75,7 @@
                 </view>
 
                 <!-- 推荐项 1 -->
-                <view class="flex items-center mb-3 last:mb-0" @tap="jumpToMiniProgram('wxcecc3f773a042d84')">
+                <view class="flex items-center mb-3 last:mb-0" @tap="jumpToMiniProgram('微信小程序ID')">
                     <image src="https://open.ququya.com/img/logo.ququya.png"
                         style="width: 60rpx;height: 60rpx;border-radius: 8rpx;" mode="cover" />
                     <view class="ml-3 flex-1">
