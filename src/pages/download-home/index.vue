@@ -12,7 +12,7 @@
     </t-dialog>
     <view class="bg-slate-100 pt-4 pb-5">
 
-        <!-- ✅ 区块2（输入框+按钮）移到第一位，去掉 mt-4 -->
+        <!-- 输入框+按钮 -->
         <view class="mx-4 bg-white pb-4 rounded-lg shadow overflow-hidden">
             <t-textarea v-model:value="content" @change="onChange" placeholder="请粘贴视频或图集链接～" :autosize="{
                 minHeight: 100,
@@ -33,7 +33,7 @@
             </view>
         </view>
 
-        <!-- ✅ 区块1（支持平台）移到第二位，加上 mt-4 -->
+        <!-- 支持平台 -->
         <view class="mx-4 mt-4 bg-white rounded-lg shadow overflow-hidden">
             <view class="p-4 border-b border-gray-100 flex items-center">
                 <text class="text-lg font-medium text-gray-800">支持平台<text
@@ -54,6 +54,12 @@
             </view>
         </view>
 
+        <!-- 原生模板广告（使用教程上方）-->
+        <view class="m-4">
+            <ad-custom unit-id="adunit-a3dbe2104a249052"></ad-custom>
+        </view>
+
+        <!-- 使用教程 -->
         <view class="mx-4 mt-4 p-4 bg-gradient-to-r from-blue-100 to-indigo-100 rounded-lg shadow"
             @click="goToTutorial">
             <view class="flex items-center justify-between">

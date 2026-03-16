@@ -44,6 +44,11 @@
             </view>
         </view>
 
+        <!-- 原生模板广告（搭建同款小程序上方）-->
+        <view class="m-4">
+            <ad-custom unit-id="adunit-a3dbe2104a249052"></ad-custom>
+        </view>
+
         <view class="mx-4 bg-white rounded-lg shadow overflow-hidden mt-4">
             <view class="relative">
                 <t-cell title="搭建同款小程序" leftIcon="chat-bubble-smile" arrow @click="showDialog = true" />
